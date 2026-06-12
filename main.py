@@ -1,4 +1,6 @@
+from turtle import width
 from altair import value
+from networkx import display
 import streamlit as st
 import pandas as pd
 import joblib
@@ -63,6 +65,15 @@ def set_bg_clear(image_file):
         color: #00ffcc !important;
         font-weight: bold;
     }}
+
+    div.stButton {
+    display: flex;
+    justify-content: center;
+}
+
+div.stButton > button {
+    min-width: 200px;
+}
 
     </style>
     """, unsafe_allow_html=True)
