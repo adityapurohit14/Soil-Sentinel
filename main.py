@@ -50,30 +50,23 @@ def set_bg_clear(image_file):
     }}
 
     /* Neon Button */
-    .stButton>button {{
-        background-color: black;
-        color: #00ffcc;
-        border: 1px solid #00ffcc;
-        box-shadow: 0 0 10px #00ffcc;
-        border-radius: 10px;
-        height: 50px;
-        width: 100%;
-        font-size: 18px;
-    }}
+    .stButton > button {{
+    background-color: #000000;
+    color: #00ffcc;
+    border: 1px solid #00ffcc;
+    box-shadow: 0 0 10px #00ffcc;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+}}
 
-    label {{
-        color: #00ffcc !important;
-        font-weight: bold;
-    }}
-
-    div.stButton {
+div.stButton {
     display: flex;
     justify-content: center;
 }
 
-div.stButton > button {
-    min-width: 200px;
-}
+
 
     </style>
     """, unsafe_allow_html=True)
