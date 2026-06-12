@@ -60,10 +60,10 @@ def set_bg_clear(image_file):
     font-size: 18px;
 }}
 
-div.stButton {
+div.stButton {{
     display: flex;
     justify-content: center;
-}
+}}
 
 
 
